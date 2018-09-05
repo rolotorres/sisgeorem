@@ -3,7 +3,6 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
 import { PagesComponent } from './pages/pages.component';
-import { MapaComponent } from './shared/mapa/mapa.component';
 
 const appRoutes: Routes = [
     {

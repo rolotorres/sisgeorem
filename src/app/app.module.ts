@@ -27,7 +27,7 @@ import { MapaComponent } from './shared/mapa/mapa.component';
     BrowserModule,
     APP_ROUTES,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyA-HXVa2jtkGfKtIJwisxgC46RaWqC1xuI'
+      apiKey: 'AIzaSyBqnffBs97VbVbUI4L6XJyRoJkRq_c60uM'
     })
   ],
   providers: [],
