@@ -1,3 +1,11 @@
 agm-map {
-    height: 600px;
+    height: 670px;
+}
+
+.borrar {
+    background-color: red;
+}
+
+.editar {
+    background-color: blueviolet;
 }
