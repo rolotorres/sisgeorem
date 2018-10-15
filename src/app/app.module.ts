@@ -13,6 +13,7 @@ import { PagesComponent } from './pages/pages.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './shared/pagenotfound/pagenotfound.component';
 import { MapaComponent } from './shared/mapa/mapa.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MapaComponent } from './shared/mapa/mapa.component';
     PagesComponent,
     LoginComponent,
     PagenotfoundComponent,
-    MapaComponent
+    MapaComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

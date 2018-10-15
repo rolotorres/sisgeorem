@@ -1,5 +1,9 @@
 agm-map {
-    height: 670px;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 663px;
 }
 
 .borrar {

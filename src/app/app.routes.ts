@@ -6,11 +6,11 @@ import { PagesComponent } from './pages/pages.component';
 
 const appRoutes: Routes = [
     {
-        path: '', component: PagesComponent, children: [{
-            path: 'dashboard', component: DashboardComponent
-        },
-        { path: '', redirectTo: '/dashboard', pathMatch: 'full' },]
+        path: '', component: PagesComponent, children: [
+            { path: 'dashboard', component: DashboardComponent },
+            { path: '', redirectTo: '/dashboard', pathMatch: 'full' }]
     },
+
     { path: 'login', component: LoginComponent },
     { path: '**', component: PagenotfoundComponent }
 ];
